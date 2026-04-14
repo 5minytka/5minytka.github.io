@@ -1,7 +1,4 @@
----
-layout: default
-title: "Проекти"
----
+![S](https://www.image2url.com/r2/default/images/1776185289146-f6d54758-5d5a-47f2-be75-bd9c625eb743.png)
 
 # 🧱 проекти
 
