@@ -5,10 +5,6 @@
 - [`🖱️ Мой ник в bloxd.io`](https://bloxd.io) — kolia_mak_bloxd_YT
 - [`🌍 Мой профиль в minecraft`](https://ely.by/skins?uploader=kolia_mak_bloxd) — kolia_mak_bloxd
 
-# ⚡ скретч проекти
 ---
 
-
-- [`💻 Операционая Система`](https://scratch.mit.edu/projects/1223733332/) — моя первая операционая система!
-  
-[`больше проектов...`](d.md)
+[`🧱 проекти`](d.md)
