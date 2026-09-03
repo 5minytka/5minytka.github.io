@@ -1,2 +1,118 @@
-<link rel="icon" href="https://www.image2url.com/r2/default/images/1776185289146-f6d54758-5d5a-47f2-be75-bd9c625eb743.png">
-<title>5minytka</title>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Crivel Dollar Inc. — Эксклюзив</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            border: 1px solid #333;
+        }
+        h1 {
+            color: #4caf50;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .badge {
+            background-color: #ff9800;
+            color: black;
+            padding: 5px 10px;
+            font-weight: bold;
+            border-radius: 5px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .description {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #cccccc;
+            text-align: left;
+            background: #252525;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid #4caf50;
+        }
+        .price-tag {
+            font-size: 1.8rem;
+            margin: 25px 0;
+            font-weight: bold;
+            color: #85bb65;
+            background: #223e22;
+            padding: 10px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #333;
+            margin: 40px 0;
+        }
+        #comments-section {
+            text-align: left;
+        }
+        h3 {
+            color: #4caf50;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>💵 Crivel Dollar Inc.</h1>
+        <div class="badge">🔥 ОГРАНИЧЕННАЯ СЕРИЯ — ОСТАЛОСЬ 2 ШТ.</div>
+        
+        <p class="description">
+            Добро пожаловать на официальный аукцион! Продаются легендарные сувенирные доллары ручной нарезки. 
+            <br><br>
+            ✨ <b>Абсолютная уникальность:</b> Каждая купюра имеет свою неповторимую геометрию линий. 
+            <br>
+            🐊 <b>Коллекционный дефект:</b> На лотах присутствует фирменный элемент «эпичный надгрыз». 
+        </p>
+
+        <div class="price-tag">
+            💰 Цена за 1 шт: 50 копеек
+        </div>
+
+        <hr>
+
+        <!-- БЛОК С КОММЕНТАРИЯМИ DISQUS -->
+        <div id="comments-section">
+            <h3>💬 Оставить заявку на покупку (Напишите сюда)</h3>
+            <p style="color: #888; font-size: 0.9rem;">Укажите вашу цену или контакты для связи в окне ниже:</p>
+            
+            <div id="disqus_thread"></div>
+            
+            <script>
+                var disqus_config = function () {
+                    this.page.url = window.location.href;  
+                    this.page.identifier = window.location.pathname; 
+                };
+                (function() { 
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://5minytka-dollar.disqus.com';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+        </div>
+    </div>
+
+</body>
+</html>
