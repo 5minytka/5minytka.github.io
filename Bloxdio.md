@@ -1,3 +1,3 @@
 ### Bloxd io
 ---
-[`Codes`]()
+[`Codes`](Codes.md)
