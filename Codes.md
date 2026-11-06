@@ -1,3 +1,3 @@
 ### Codes
 ---
-[`Dragon`](Dragon.md)
+[`Dragon`](Dragon.html)
